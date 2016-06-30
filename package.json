@@ -1,0 +1,24 @@
+{
+  "name": "isaacchapman-npm-publish",
+  "version": "1.0.0",
+  "description": "Publish NPM packages from Solano CI",
+  "scripts": {
+    "solano-npm-publish": "solano-npm-publish.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsaacChapman/isaacchapman-npm-publish.git"
+  },
+  "keywords": [
+    "publish",
+    "SolanoCI",
+    "Solano",
+    "npm"
+  ],
+  "author": "Isaac Chapman <isaac@isaacchapman.com> (https://www.solanolabs.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IsaacChapman/isaacchapman-npm-publish/issues"
+  },
+  "homepage": "https://github.com/IsaacChapman/isaacchapman-npm-publish"
+}
