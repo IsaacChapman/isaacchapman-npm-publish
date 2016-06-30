@@ -31,7 +31,7 @@ fi
 # Only npm publish on tagged commits with tags matching semantic versioning
 if tags=$(git tag --contains $TDDIUM_CURRENT_COMMIT); then
   for tag in $tags; do
-    if [[ $tag =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+    if [[ $tag =~ ^v?[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
       PUBLISH_TAG=$tag
     fi
   done
